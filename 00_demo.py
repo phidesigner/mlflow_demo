@@ -1,8 +1,15 @@
-from mlflow import log_metric, log_param, log_artifact
+"""
+This module demonstrates how to use MLflow to log parameters, metrics, and artifacts.
+"""
+
 import mlflow
-mlflow.set_tracking_uri('http://http://127.0.0.1:5000/')
+from mlflow import log_metric, log_param, log_artifact
+
 
 def main():
+    """
+    This function logs parameters, metrics, and artifacts using MLflow.
+    """
     # Log a parameter (key-value pair)
     log_param("param1", 5)
 
@@ -12,9 +19,10 @@ def main():
     log_metric("foo", 3)
 
     # Log an artifact (output file)
-    with open("output.txt", "w") as f:
+    with open("output.txt", "w", encoding="utf-8") as f:
         f.write("Hello world!")
     log_artifact("output.txt")
+
 
 if __name__ == '__main__':
     main()
