@@ -8,10 +8,14 @@ def in_demo(text):
 
 
 def main(args):
+    print("Initializing W&B...")
     wandb.init(job_type="input")
-    processed_text = in_demo(args.text)
+    print("W&B initialized.")
 
+    processed_text = in_demo(args.text)
+    print(f"Logging processed text to W&B: {processed_text}")
     wandb.log({"processed_text": processed_text})
+    print("Logged to W&B.")
 
 
 if __name__ == "__main__":
@@ -25,4 +29,5 @@ if __name__ == "__main__":
     )
 
     args = parser.parse_args()
+    print(f"Received text: {args.text}")
     main(args)

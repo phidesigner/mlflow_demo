@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlflow_demo/00_mlflow_pipeline/mlruns/0/72bd08cc7df24127bef205938b366f87/artifacts
+end_time: 1699571392079
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 72bd08cc7df24127bef205938b366f87
+run_name: selective-bass-382
+run_uuid: 72bd08cc7df24127bef205938b366f87
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699571214529
+status: 3
+tags: []
+user_id: codespace

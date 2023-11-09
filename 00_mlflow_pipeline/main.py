@@ -12,20 +12,20 @@ def main(cfg: DictConfig):
     root_path = hydra.utils.get_original_cwd()
 
     _ = mlflow.run(
-        os.path.join(root_path, '00_mlflow_pipeline', 'in'),
+        os.path.join(root_path, 'in'),
         "main",
         parameters={
             'text': cfg['input']['text']
         }
     )
-
     _ = mlflow.run(
-        os.path.join(root_path, '00_mlflow_pipeline', 'out'),
+        os.path.join(root_path, 'out'),
         'main',
         parameters={
             'text': cfg['output']['text']
         }
     )
 
-    if __name__ == "__main__":
-        main()
+
+if __name__ == "__main__":
+    main()

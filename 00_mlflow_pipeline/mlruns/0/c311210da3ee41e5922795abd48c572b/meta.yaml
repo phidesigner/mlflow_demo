@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlflow_demo/00_mlflow_pipeline/mlruns/0/c311210da3ee41e5922795abd48c572b/artifacts
+end_time: 1699569729957
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c311210da3ee41e5922795abd48c572b
+run_name: merciful-ram-834
+run_uuid: c311210da3ee41e5922795abd48c572b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699569535753
+status: 3
+tags: []
+user_id: codespace
