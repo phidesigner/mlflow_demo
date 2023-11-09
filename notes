@@ -1,2 +1,0 @@
-mlflow experiments create --experiment-name "My Experiment"
-$env:MLFLOW_EXPERIMENT_ID = ID; python 01_demo.py

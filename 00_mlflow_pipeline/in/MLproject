@@ -1,0 +1,12 @@
+name: pipeline_demo
+conda_env: conda.yml
+
+entry_points:
+  main:
+    parameters:
+      text:
+        description: Text to print
+        type: str
+        default: default text in
+    command: >-
+      python run_in.py --text {text}

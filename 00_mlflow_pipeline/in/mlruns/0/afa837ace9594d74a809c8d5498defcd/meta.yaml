@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlflow_demo/00_mlflow_pipeline/in/mlruns/0/afa837ace9594d74a809c8d5498defcd/artifacts
+end_time: 1699548420709
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: afa837ace9594d74a809c8d5498defcd
+run_name: marvelous-conch-459
+run_uuid: afa837ace9594d74a809c8d5498defcd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699548419468
+status: 3
+tags: []
+user_id: codespace

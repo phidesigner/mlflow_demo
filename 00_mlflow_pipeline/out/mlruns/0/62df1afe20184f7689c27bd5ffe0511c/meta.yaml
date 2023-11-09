@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlflow_demo/00_mlflow_pipeline/out/mlruns/0/62df1afe20184f7689c27bd5ffe0511c/artifacts
+end_time: 1699548498890
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 62df1afe20184f7689c27bd5ffe0511c
+run_name: funny-dog-933
+run_uuid: 62df1afe20184f7689c27bd5ffe0511c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699548497607
+status: 3
+tags: []
+user_id: codespace

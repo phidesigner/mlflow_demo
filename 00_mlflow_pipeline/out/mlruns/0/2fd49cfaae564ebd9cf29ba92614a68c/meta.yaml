@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlflow_demo/00_mlflow_pipeline/out/mlruns/0/2fd49cfaae564ebd9cf29ba92614a68c/artifacts
+end_time: 1699548464401
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2fd49cfaae564ebd9cf29ba92614a68c
+run_name: debonair-worm-585
+run_uuid: 2fd49cfaae564ebd9cf29ba92614a68c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699548463017
+status: 3
+tags: []
+user_id: codespace
