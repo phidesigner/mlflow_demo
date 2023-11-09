@@ -1,4 +1,4 @@
-name: pipeline_demo
+name: output_step
 conda_env: conda.yml
 
 entry_points:
