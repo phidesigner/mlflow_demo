@@ -1,2 +1,5 @@
 main:
   text: "Hello World"
+
+output:
+  text: "Bye World"

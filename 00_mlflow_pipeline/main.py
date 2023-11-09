@@ -14,5 +14,13 @@ def main(cfg: DictConfig):
         }
     )
 
+    _ = mlflow.run(
+        path='/workspaces/mlflow_demo/00_mlflow_pipeline/out/run_out.py',
+        name='main',
+        parameters={
+            'text': cfg['output']['text']
+        }
+    )
+
     if __name__ == "__main__":
         main()
