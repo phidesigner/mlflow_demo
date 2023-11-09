@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlflow_demo/00_mlflow_pipeline/mlruns/0/c1056018142c49afab93fdede7ffe4bc/artifacts
+end_time: 1699551497713
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c1056018142c49afab93fdede7ffe4bc
+run_name: serious-fox-776
+run_uuid: c1056018142c49afab93fdede7ffe4bc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699551494571
+status: 4
+tags: []
+user_id: codespace
