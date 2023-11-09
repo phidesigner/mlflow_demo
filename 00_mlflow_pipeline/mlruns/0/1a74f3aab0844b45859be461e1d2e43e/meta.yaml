@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlflow_demo/00_mlflow_pipeline/mlruns/0/1a74f3aab0844b45859be461e1d2e43e/artifacts
+end_time: 1699565365500
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1a74f3aab0844b45859be461e1d2e43e
+run_name: redolent-seal-543
+run_uuid: 1a74f3aab0844b45859be461e1d2e43e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699565362807
+status: 3
+tags: []
+user_id: codespace

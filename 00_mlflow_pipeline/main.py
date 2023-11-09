@@ -1,22 +1,27 @@
+import os
 import hydra
 from omegaconf import DictConfig
 import mlflow
-import wandb
 
 
 @hydra.main(config_name="config")
 def main(cfg: DictConfig):
+    os.environ["WANDB_PROJECT"] = cfg["main"]["project_name"]
+    os.environ["WANDB_RUN_GROUP"] = cfg["main"]["experiment_name"]
+
+    root_path = hydra.utils.get_original_cwd()
+
     _ = mlflow.run(
-        path='/workspaces/mlflow_demo/00_mlflow_pipeline/in/run_in.py',
-        name='main',
+        os.path.join(root_path, '00_mlflow_pipeline', 'in'),
+        "main",
         parameters={
-            'text': cfg['main']['text']
+            'text': cfg['input']['text']
         }
     )
 
     _ = mlflow.run(
-        path='/workspaces/mlflow_demo/00_mlflow_pipeline/out/run_out.py',
-        name='main',
+        os.path.join(root_path, '00_mlflow_pipeline', 'out'),
+        'main',
         parameters={
             'text': cfg['output']['text']
         }

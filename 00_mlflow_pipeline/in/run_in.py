@@ -1,4 +1,5 @@
 import argparse
+import wandb
 
 
 def in_demo(text):
@@ -7,7 +8,10 @@ def in_demo(text):
 
 
 def main(args):
-    in_demo(args.text)
+    wandb.init(job_type="input")
+    processed_text = in_demo(args.text)
+
+    wandb.log({"processed_text": processed_text})
 
 
 if __name__ == "__main__":

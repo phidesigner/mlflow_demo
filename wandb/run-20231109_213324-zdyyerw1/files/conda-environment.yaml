@@ -1,0 +1,51 @@
+name: base
+channels:
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - boltons=23.0.0=py310h06a4308_0
+  - brotlipy=0.7.0=py310h7f8727e_1002
+  - bzip2=1.0.8=h7b6447c_0
+  - ca-certificates=2023.08.22=h06a4308_0
+  - certifi=2023.7.22=py310h06a4308_0
+  - cffi=1.15.0=py310hd667e15_1
+  - conda=23.9.0=py310h06a4308_0
+  - conda-package-handling=2.2.0=py310h06a4308_0
+  - conda-package-streaming=0.9.0=py310h06a4308_0
+  - idna=3.4=py310h06a4308_0
+  - ld_impl_linux-64=2.38=h1181459_1
+  - libffi=3.3=he6710b0_2
+  - libgcc-ng=9.1.0=hdf63c60_0
+  - libstdcxx-ng=9.1.0=hdf63c60_0
+  - libuuid=1.0.3=h7f8727e_2
+  - ncurses=6.3=h7f8727e_2
+  - openssl=1.1.1w=h7f8727e_0
+  - packaging=23.1=py310h06a4308_0
+  - pluggy=1.0.0=py310h06a4308_1
+  - pycosat=0.6.3=py310h7f8727e_0
+  - pyopenssl=23.2.0=py310h06a4308_0
+  - pysocks=1.7.1=py310h06a4308_0
+  - python=3.10.4=h12debd9_0
+  - readline=8.1.2=h7f8727e_1
+  - requests=2.31.0=py310h06a4308_0
+  - ruamel.yaml=0.16.10=py310h7f8727e_1
+  - ruamel.yaml.clib=0.2.6=py310h7f8727e_0
+  - setuptools=68.0.0=py310h06a4308_0
+  - sqlite=3.38.5=hc218d9a_0
+  - tk=8.6.12=h1ccaba5_0
+  - tqdm=4.65.0=py310h2f386ee_0
+  - truststore=0.8.0=py310h06a4308_0
+  - tzdata=2023c=h04d1e81_0
+  - wheel=0.41.2=py310h06a4308_0
+  - xz=5.2.5=h7f8727e_1
+  - zlib=1.2.12=h7f8727e_2
+  - zstandard=0.15.2=py310h7f8727e_0
+  - pip:
+      - charset-normalizer==2.0.4
+      - cryptography==41.0.4
+      - jsonpatch==1.32
+      - jsonpointer==2.1
+      - pip==23.3
+      - pycparser==2.21
+      - urllib3==1.26.17
+prefix: /opt/conda

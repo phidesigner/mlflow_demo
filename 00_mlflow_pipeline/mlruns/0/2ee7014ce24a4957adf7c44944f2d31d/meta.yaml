@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlflow_demo/00_mlflow_pipeline/mlruns/0/2ee7014ce24a4957adf7c44944f2d31d/artifacts
+end_time: 1699566338321
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2ee7014ce24a4957adf7c44944f2d31d
+run_name: polite-hare-677
+run_uuid: 2ee7014ce24a4957adf7c44944f2d31d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1699566336138
+status: 3
+tags: []
+user_id: codespace

@@ -1,4 +1,8 @@
-main:
+ main:
+  project_name: pipeline_demo
+  experiment_name: demo
+
+input:
   text: "Hello World"
 
 output:
