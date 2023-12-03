@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlflow_demo/00_mlflow_pipeline/outputs/2023-12-03/18-18-02/mlruns/0/179bb878142f4aee89f45ba279c2495c/artifacts
+end_time: 1701627510928
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 179bb878142f4aee89f45ba279c2495c
+run_name: defiant-ant-620
+run_uuid: 179bb878142f4aee89f45ba279c2495c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701627496110
+status: 3
+tags: []
+user_id: codespace

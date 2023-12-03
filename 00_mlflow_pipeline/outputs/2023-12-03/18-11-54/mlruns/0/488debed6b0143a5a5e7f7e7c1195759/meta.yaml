@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlflow_demo/00_mlflow_pipeline/outputs/2023-12-03/18-11-54/mlruns/0/488debed6b0143a5a5e7f7e7c1195759/artifacts
+end_time: 1701627134249
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 488debed6b0143a5a5e7f7e7c1195759
+run_name: caring-smelt-463
+run_uuid: 488debed6b0143a5a5e7f7e7c1195759
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701627114783
+status: 3
+tags: []
+user_id: codespace

@@ -18,7 +18,7 @@ def main(args):
 
     # Load input artifact
     artifact = wandb.use_artifact(
-        "artifact_demo_file:v0",
+        "artifact_demo_file:latest",
         type='demo')
 
     artifact_path = artifact.file()

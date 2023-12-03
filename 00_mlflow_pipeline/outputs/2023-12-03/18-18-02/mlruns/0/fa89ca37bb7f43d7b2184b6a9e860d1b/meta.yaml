@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlflow_demo/00_mlflow_pipeline/outputs/2023-12-03/18-18-02/mlruns/0/fa89ca37bb7f43d7b2184b6a9e860d1b/artifacts
+end_time: 1701627496085
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fa89ca37bb7f43d7b2184b6a9e860d1b
+run_name: dazzling-cub-645
+run_uuid: fa89ca37bb7f43d7b2184b6a9e860d1b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701627483055
+status: 3
+tags: []
+user_id: codespace

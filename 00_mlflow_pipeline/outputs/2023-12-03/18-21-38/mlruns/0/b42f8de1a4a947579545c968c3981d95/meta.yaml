@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlflow_demo/00_mlflow_pipeline/outputs/2023-12-03/18-21-38/mlruns/0/b42f8de1a4a947579545c968c3981d95/artifacts
+end_time: 1701627708142
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b42f8de1a4a947579545c968c3981d95
+run_name: bold-worm-335
+run_uuid: b42f8de1a4a947579545c968c3981d95
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701627698500
+status: 3
+tags: []
+user_id: codespace
