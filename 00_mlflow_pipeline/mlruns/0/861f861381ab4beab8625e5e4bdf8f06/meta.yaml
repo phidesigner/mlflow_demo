@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlflow_demo/00_mlflow_pipeline/mlruns/0/861f861381ab4beab8625e5e4bdf8f06/artifacts
+end_time: 1701637501885
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 861f861381ab4beab8625e5e4bdf8f06
+run_name: incongruous-croc-371
+run_uuid: 861f861381ab4beab8625e5e4bdf8f06
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701637487149
+status: 3
+tags: []
+user_id: codespace

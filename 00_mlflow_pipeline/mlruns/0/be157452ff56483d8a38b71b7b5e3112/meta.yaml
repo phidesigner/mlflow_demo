@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlflow_demo/00_mlflow_pipeline/mlruns/0/be157452ff56483d8a38b71b7b5e3112/artifacts
+end_time: 1701637282481
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: be157452ff56483d8a38b71b7b5e3112
+run_name: amazing-crane-414
+run_uuid: be157452ff56483d8a38b71b7b5e3112
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701637264373
+status: 3
+tags: []
+user_id: codespace

@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlflow_demo/00_mlflow_pipeline/in/mlruns/0/5c04ff3d0070426eb3cf48a92ebeaf0e/artifacts
+end_time: 1701632767988
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5c04ff3d0070426eb3cf48a92ebeaf0e
+run_name: placid-carp-388
+run_uuid: 5c04ff3d0070426eb3cf48a92ebeaf0e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701632766132
+status: 3
+tags: []
+user_id: codespace

@@ -9,7 +9,6 @@ def out_demo(text, add_text):
 
 
 def main(args):
-    # out_demo(args.text)
 
     wandb.init(
         project='workflow_demo',
@@ -18,8 +17,8 @@ def main(args):
 
     # Load input artifact
     artifact = wandb.use_artifact(
-        "artifact_demo_file:latest",
-        type='demo')
+        "artifact_in_demo:latest",
+        type='in_demo')
 
     artifact_path = artifact.file()
 
@@ -33,8 +32,8 @@ def main(args):
 
     # Log the modified text as a new artifact
     modified_artifact = wandb.Artifact(
-        'artifact_demo_file',
-        type='demo'     # Same type as the input artifact
+        'artifact_in_demo',
+        type='in_demo'     # Same type as the input artifact
     )
     with modified_artifact.new_file("text_demo.json", mode="w") as f:
         json.dump({'processed_text': modified_text}, f)

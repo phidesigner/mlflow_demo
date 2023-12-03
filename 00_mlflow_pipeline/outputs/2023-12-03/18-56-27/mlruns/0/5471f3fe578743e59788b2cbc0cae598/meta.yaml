@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlflow_demo/00_mlflow_pipeline/outputs/2023-12-03/18-56-27/mlruns/0/5471f3fe578743e59788b2cbc0cae598/artifacts
+end_time: 1701629789839
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5471f3fe578743e59788b2cbc0cae598
+run_name: stylish-bird-625
+run_uuid: 5471f3fe578743e59788b2cbc0cae598
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701629787956
+status: 3
+tags: []
+user_id: codespace

@@ -1,12 +1,9 @@
 main:
-  project_name: workflow_demo
-  experiment_name: run_in&out
+  project_name: "workflow_demo"
+  experiment_name: "run_in_n_out"
 
 input:
-  text: Hello from the config input section!
-  artifact_name: processed_text_artifact
-  artifact_type: text
-  artifact_description: Processed text data example
+  text: "##### Hello from the config input section! ####"
 
 output:
-  add_text: Hello from the config output section!
+  add_text: "##### Hello from the config output section! ####"

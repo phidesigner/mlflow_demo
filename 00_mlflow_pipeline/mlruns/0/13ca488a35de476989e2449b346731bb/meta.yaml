@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlflow_demo/00_mlflow_pipeline/mlruns/0/13ca488a35de476989e2449b346731bb/artifacts
+end_time: 1701633087984
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 13ca488a35de476989e2449b346731bb
+run_name: bald-carp-82
+run_uuid: 13ca488a35de476989e2449b346731bb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701633077095
+status: 3
+tags: []
+user_id: codespace

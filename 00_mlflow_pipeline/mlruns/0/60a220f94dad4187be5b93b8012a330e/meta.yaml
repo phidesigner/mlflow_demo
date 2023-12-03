@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlflow_demo/00_mlflow_pipeline/mlruns/0/60a220f94dad4187be5b93b8012a330e/artifacts
+end_time: 1701630046207
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 60a220f94dad4187be5b93b8012a330e
+run_name: likeable-asp-344
+run_uuid: 60a220f94dad4187be5b93b8012a330e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701630044390
+status: 3
+tags: []
+user_id: codespace

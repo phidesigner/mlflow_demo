@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlflow_demo/00_mlflow_pipeline/outputs/2023-12-03/19-50-13/mlruns/0/fce44ae15b9c4e9abf776b2f51cd1d7d/artifacts
+end_time: 1701633016145
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fce44ae15b9c4e9abf776b2f51cd1d7d
+run_name: bustling-shrimp-563
+run_uuid: fce44ae15b9c4e9abf776b2f51cd1d7d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701633014058
+status: 3
+tags: []
+user_id: codespace

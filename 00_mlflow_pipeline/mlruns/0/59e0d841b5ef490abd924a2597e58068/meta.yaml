@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlflow_demo/00_mlflow_pipeline/mlruns/0/59e0d841b5ef490abd924a2597e58068/artifacts
+end_time: 1701633087827
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 59e0d841b5ef490abd924a2597e58068
+run_name: debonair-shrike-820
+run_uuid: 59e0d841b5ef490abd924a2597e58068
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701633085825
+status: 3
+tags: []
+user_id: codespace
