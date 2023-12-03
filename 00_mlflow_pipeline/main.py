@@ -22,7 +22,7 @@ def main(cfg: DictConfig):
         os.path.join(root_path, 'out'),
         'main',
         parameters={
-            'text': cfg['output']['text']
+            'add_text': cfg['output']['add_text']
         }
     )
 

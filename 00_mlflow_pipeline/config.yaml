@@ -1,12 +1,12 @@
 main:
-  project_name: pipeline_demo
-  experiment_name: demo
+  project_name: workflow_demo
+  experiment_name: run_in&out
 
 input:
-  text: Hello from step 1 (main)!
+  text: Hello from the congig input section!
   artifact_name: processed_text_artifact
   artifact_type: text
   artifact_description: Processed text data example
 
 output:
-  text: Hello from step two (main)!
+  add_text: Hello from the config output section!

@@ -4,9 +4,9 @@ conda_env: conda.yml
 entry_points:
   main:
     parameters:
-      text:
+      add_text:
         description: Text to print
         type: str
-        default: default text out
+        required: true
     command: >-
-      python run_out.py --text {text}
+      python run_out.py --add_text {add_text}

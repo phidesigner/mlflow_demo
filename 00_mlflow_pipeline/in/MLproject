@@ -7,6 +7,6 @@ entry_points:
       text:
         description: Text to print
         type: str
-        default: default text
+        default: Hello from the MLproject!
     command: >-
       python run_in.py --text {text}

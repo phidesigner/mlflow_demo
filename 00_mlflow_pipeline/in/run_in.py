@@ -15,7 +15,6 @@ def main(args):
     )
 
     processed_text = in_demo(args.text)
-    # wandb.log({"processed_text": processed_text})
 
     artifact = wandb.Artifact(
         'artifact_demo_file',  # Name of the artifact
