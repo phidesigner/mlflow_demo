@@ -4,6 +4,9 @@ main:
 
 input:
   text: Hello World
+  artifact_name: processed_text_artifact
+  artifact_type: text
+  artifact_description: Processed text data example
 
 output:
   text: Bye World

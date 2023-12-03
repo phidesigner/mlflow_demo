@@ -17,6 +17,15 @@ def main(args):
     wandb.log({"processed_text": processed_text})
     print("Logged to W&B.")
 
+    artifact = wandb.Artifact(
+        'processed_text_artifact',  # Name of the artifact
+        type='processed_text',      # Type of the artifact
+        description='Processed text data'
+    )
+    with artifact.new_file("processed_text.json", mode="w") as f:
+        json.dump({'processed_text': processed_text}, f)
+
+    wandb.log_artifact(artifact)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='in_demo')

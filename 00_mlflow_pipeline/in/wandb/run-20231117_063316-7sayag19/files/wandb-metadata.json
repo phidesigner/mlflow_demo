@@ -1,0 +1,53 @@
+{
+    "os": "Linux-6.2.0-1016-azure-x86_64-with-glibc2.31",
+    "python": "3.9.18",
+    "heartbeatAt": "2023-11-17T06:33:16.881525",
+    "startedAt": "2023-11-17T06:33:16.143409",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--text",
+        "Hello World"
+    ],
+    "state": "running",
+    "program": "/workspaces/mlflow_demo/00_mlflow_pipeline/in/run_in.py",
+    "codePathLocal": "run_in.py",
+    "codePath": "00_mlflow_pipeline/in/run_in.py",
+    "git": {
+        "remote": "https://github.com/phidesigner/mlflow_demo",
+        "commit": "143a3207042daa3e945617d665a5e807493d13ac"
+    },
+    "email": "phi.designer@gmail.com",
+    "root": "/workspaces/mlflow_demo",
+    "host": "codespaces-dbca96",
+    "username": "codespace",
+    "executable": "/opt/conda/envs/mlflow-88cede629d8ff9ef90b549892c25944a33fb3ff3/bin/python",
+    "cpu_count": 1,
+    "cpu_count_logical": 2,
+    "cpu_freq": {
+        "current": 3243.8684999999996,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3243.718,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3244.019,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 31.32598876953125,
+            "used": 15.456245422363281
+        }
+    },
+    "memory": {
+        "total": 7.744106292724609
+    }
+}
