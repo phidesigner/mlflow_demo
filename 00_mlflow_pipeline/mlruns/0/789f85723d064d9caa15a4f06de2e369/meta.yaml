@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlflow_demo/00_mlflow_pipeline/mlruns/0/789f85723d064d9caa15a4f06de2e369/artifacts
+end_time: 1701610277663
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 789f85723d064d9caa15a4f06de2e369
+run_name: loud-snipe-245
+run_uuid: 789f85723d064d9caa15a4f06de2e369
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701610266049
+status: 4
+tags: []
+user_id: codespace

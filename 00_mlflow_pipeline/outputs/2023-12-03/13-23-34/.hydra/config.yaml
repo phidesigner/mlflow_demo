@@ -1,12 +1,10 @@
 main:
   project_name: pipeline_demo
   experiment_name: demo
-
 input:
   text: Hello from step 1 (main)!
   artifact_name: processed_text_artifact
   artifact_type: text
   artifact_description: Processed text data example
-
 output:
   text: Hello from step two (main)!

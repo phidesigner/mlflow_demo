@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlflow_demo/00_mlflow_pipeline/mlruns/0/944109fe0526462983503b71e0313807/artifacts
+end_time: 1701610129262
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 944109fe0526462983503b71e0313807
+run_name: entertaining-elk-610
+run_uuid: 944109fe0526462983503b71e0313807
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701610098049
+status: 3
+tags: []
+user_id: codespace

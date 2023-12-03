@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlflow_demo/00_mlflow_pipeline/outputs/2023-12-03/13-23-34/mlruns/0/570dcce99234482ab06d9b21ffb35d72/artifacts
+end_time: 1701609831510
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 570dcce99234482ab06d9b21ffb35d72
+run_name: serious-slug-902
+run_uuid: 570dcce99234482ab06d9b21ffb35d72
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701609814509
+status: 3
+tags: []
+user_id: codespace

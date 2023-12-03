@@ -1,5 +1,6 @@
 import argparse
 import wandb
+import json
 
 
 def in_demo(text):
@@ -8,24 +9,23 @@ def in_demo(text):
 
 
 def main(args):
-    print("Initializing W&B...")
-    wandb.init(job_type="input")
-    print("W&B initialized.")
+    wandb.init(
+        project='workflow_demo',
+        name='run_in'
+    )
 
     processed_text = in_demo(args.text)
-    print(f"Logging processed text to W&B: {processed_text}")
-    wandb.log({"processed_text": processed_text})
-    print("Logged to W&B.")
+    # wandb.log({"processed_text": processed_text})
 
     artifact = wandb.Artifact(
-        'processed_text_artifact',  # Name of the artifact
-        type='processed_text',      # Type of the artifact
-        description='Processed text data'
+        'artifact_demo_file',  # Name of the artifact
+        type='demo'    # Type of the artifact
     )
-    with artifact.new_file("processed_text.json", mode="w") as f:
+    with artifact.new_file("text_demo.json", mode="w") as f:
         json.dump({'processed_text': processed_text}, f)
 
     wandb.log_artifact(artifact)
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='in_demo')
@@ -33,10 +33,9 @@ if __name__ == "__main__":
     parser.add_argument(
         '--text',
         type=str,
-        default='default text in',
+        default='default text step 1',
         help='The message to print'
     )
 
     args = parser.parse_args()
-    print(f"Received text: {args.text}")
     main(args)

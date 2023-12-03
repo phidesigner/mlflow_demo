@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlflow_demo/00_mlflow_pipeline/outputs/2023-12-03/13-23-34/mlruns/0/e10a60567e1f465f9f558fa86492f811/artifacts
+end_time: 1701609848592
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e10a60567e1f465f9f558fa86492f811
+run_name: colorful-toad-591
+run_uuid: e10a60567e1f465f9f558fa86492f811
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1701609831537
+status: 3
+tags: []
+user_id: codespace
